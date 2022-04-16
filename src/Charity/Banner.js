@@ -30,10 +30,10 @@ const Banner = () => {
       .then((response) => {
         if (data !== "") {
           console.log("data", response.data);
-          alert(`Enter passwowrd`);
+          alert(`Success fully`);
         } else {
           console.log("data", response.data);
-          alert("successfully");
+          alert("Enter Details");
         }
         console.log("status", response.status);
       })
